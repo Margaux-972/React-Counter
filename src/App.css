@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 125px;
+  border-bottom: solid 1px #e5e5e5;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 40px;
+}
+header img {
+  padding: 30px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 30px;
+}
+
+.button button {
+  width: 52.5px;
+  height: 60px;
+  background-color: white;
+  border: none;
+}
+
+.button button img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.button p {
+  background-color: #5c48d3;
+  height: 150px;
+  width: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  border-radius: 10px;
+}
+.minus,
+.plus {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  background-color: #5c48d3;
+  border: none;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
