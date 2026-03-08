@@ -32,7 +32,7 @@ function App() {
             )}
           </div>
         </div>
-        <button className="reset" onClick={() => setCounter((counter) => 0)}>
+        <button className="reset" onClick={() => setCounter(0)}>
           Reset
         </button>
       </section>
